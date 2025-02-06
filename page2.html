@@ -1,0 +1,90 @@
+<html>
+<head><title>
+   FIND
+</title>
+<style>
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .imag{
+       background-color: rgb(0, 0, 0);
+    }
+</style>
+</head>
+<body>
+    
+    <div class="imag" align="center" style="border:3px solid black;margin:40px 0px 0px 250px;width: 60%;height:auto;border-radius: 50px;padding: 0px;">
+        <h1 style="text-shadow: 2px 0px 0px rgb(255, 255, 255);text-align: center;color:rgb(255, 0, 0);font-family:fantasy;font-size: 30px;font-weight: 900;">
+           MOVIES FOR YOU
+        </h1>
+    </div>
+    <br><br>
+    
+        <form action="findmovies.php" style="width:350px;height:auto;border:2px none rgb(0, 0, 0);border-radius:40px;padding: 10px 20px
+            20px;background-color:rgb(5, 5, 5);margin:0px 0px 0px 430px" name="name1" method="post" align="center">
+            
+            <tt align="center" style="color:rgb(255, 255, 255);font-size:26px;">FIND</tt>
+            <table style="padding:20px;" cellpadding="5">
+               
+            <tr>
+            <td><label><tt class="wt" style="color:rgb(255, 255, 255);">Mood*  </tt></label></td>
+            <td style="color:rgb(255, 255, 255);">:<select name="opt" size=1 style="width:100px;color:rgb(0, 0, 0);border-radius:4px;" single>
+                
+                <option value="Feel good">Feel Good</option>
+                <option value="Mind blowing">Mind blowing</option>
+                <option value="Action packed">Action packed</option>
+                <option value="Short break">Short break</option>
+                <option value="Depressing">Depressing</option>
+                <option value="Emotional">Emotional</option>
+                <option value="Funny">Funny</option>
+                <option value="Long">Long</option>
+                <option value="Romantic">Romantic</option>
+              </select></td>
+            </tr>
+            <tr>
+            <td><label><tt class="wt" style="color:rgb(255, 255, 255);">Genre*   </tt></label></td>
+            <td style="color:rgb(255, 255, 255);">:<select name="opt1" size=1 style="width:100px;color:rgb(0, 0, 0);border-radius:4px;" single>
+                <option value="Comedy">Comedy</option>
+                <option value="Romance">Romance</option>
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Drama">Drama</option>
+                <option value="Sci-fi">Sci-fi</option>
+                <option value="Horror">Horror</option>
+              </select></td>
+            </tr>
+            <tr>
+                <td><label><tt class="wt" style="color:rgb(255, 255, 255);">Year*  </tt></label></td>
+                <td style="color:rgb(255, 255, 255);">:<input id="i1" type="text" placeholder="Enter year" name="tb1" style="width:100px;color:rgb(3, 3, 3);border-radius:4px;
+                border:1px solid black"></td>
+                </tr>
+                <tr>
+                    <td><label><tt class="wt" style="color:rgb(255, 255, 255);">Language*  </tt></label></td>
+                    <td style="color:rgb(255, 255, 255);">:<select name="opt2" size=1 style="width:100px;color:rgb(0, 0, 0);border-radius:4px;" single>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Tamil">Tamil</option>
+                      </select></td>
+                    </tr>
+                    <tr>
+                        <td><label><tt class="wt" style="color:rgb(255, 255, 255);">Age Rating*  </tt></label></td>
+                        <td style="color:rgb(255, 255, 255);">:<select name="opt3" size=1 style="width:100px;color:rgb(0, 0, 0);border-radius:4px;" single>
+                            <option value="1">>18</option>
+                            <option value="0"><18</option>
+                            
+                          </select></td>
+                        </tr>
+            </table>
+            <div align="center">
+            <br>
+            <input type="submit" value="Find" class="button" name="b1" style="padding:10px;width:80px;color:rgb(0, 0, 0);
+            background:rgb(246, 0, 0);border-radius:10px;border: 1px solid rgb(255, 255, 255);">
+            </div>
+            </form>
+ 
+   
+
+</body>
+</html>

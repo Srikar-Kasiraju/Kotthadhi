@@ -1,0 +1,7 @@
+mysql -h ccproject.c7sovmb4ucbm.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+pass:admin123
+
+sudo -s 
+chmod -R 777 filespath
+
+https://www.youtube.com/watch?v=au5vUFJsw_8&ab_channel=SumantaSharma
